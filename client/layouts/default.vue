@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <Navtop/>
     <v-main>
         <nuxt />
     </v-main>
@@ -7,10 +8,14 @@
 </template>
 
 <script>
+import Navtop from '../components/navbarTop'
 export default {
   data () {
     return {
     }
+  },
+  components:{
+    Navtop
   }
 }
 </script>

@@ -52,6 +52,7 @@
         </svg>
       </div>
     </swiper>
+    <!-- <img src="~/assets/photo.jpg" alt=""> -->
   </v-container>
 </template>
 <script>

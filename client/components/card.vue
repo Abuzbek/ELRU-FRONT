@@ -3,7 +3,7 @@
     <div class="card-img_wraper">
       <v-img
         class="img_card"
-        :src="img"
+        :src="`/_nuxt/assets/${img}`"
       />
       <div class="best" :class="{'best_bottom': news}" v-if="best">Бестселлер</div>
       <div class="news" v-if="news">Новинка</div>
