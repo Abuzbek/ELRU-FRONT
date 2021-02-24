@@ -1,7 +1,7 @@
 export default [
   {
     _id:'ajnsd872u2if24f398',
-    img:'photo.jpg',
+    img:'https://i.ibb.co/3fRC4P8/photo.jpg',
     heading:'Уродина, в поисках пути к счастью и процветанию',
     paper:true,
     ebook:true,
@@ -14,7 +14,7 @@ export default [
   },
   {
     _id:'akjf4893fj3849f3fg',
-    img:'photo.jpg',
+    img:'https://i.ibb.co/3fRC4P8/photo.jpg',
     heading:'Уродина, в поисках пути к счастью и процветанию',
     paper:true,
     ebook:true,

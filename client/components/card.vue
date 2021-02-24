@@ -2,8 +2,9 @@
   <v-card class="box-shadow">
     <div class="card-img_wraper">
       <v-img
+        lazy-src="~/assets/default.jpg"
         class="img_card"
-        :src="`/_nuxt/assets/${img}`"
+        :src="`${img}`"
       />
       <div class="best" :class="{'best_bottom': news}" v-if="best">Бестселлер</div>
       <div class="news" v-if="news">Новинка</div>
@@ -81,6 +82,7 @@ export default {
 }
   .card-img_wraper{
     position: relative;
+    .img_card{background-size: cover;}
     .best{
       position: absolute;
       left: 0px;

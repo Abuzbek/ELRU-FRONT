@@ -1,6 +1,6 @@
 <template>
   <li class="item_navbar">
-    <a :href="href">{{ item }}</a>
+    <nuxt-link class="item_link" :to="href">{{ item }}</nuxt-link>
   </li>
 </template>
 <script>
@@ -27,7 +27,7 @@ export default {
   padding-right: 20px;
   list-style: none;
   display: inline-block;
-  a {
+  .item_link {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
